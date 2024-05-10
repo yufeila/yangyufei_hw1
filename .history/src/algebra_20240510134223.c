@@ -234,9 +234,9 @@ int rank_matrix(Matrix a)
             c++;
         }
     }
-    //printf("b is :\n");
-    //print_matrix(b);
-    //printf("\n");
+    printf("b is :\n");
+    print_matrix(b);
+    printf("\n");
     /*第i行能否使用高斯消元法*/
     for(i=0;i<b.cols;i++)
     {

@@ -234,9 +234,9 @@ int rank_matrix(Matrix a)
             c++;
         }
     }
-    //printf("b is :\n");
-    //print_matrix(b);
-    //printf("\n");
+    printf("b is :\n");
+    print_matrix(b);
+    printf("\n");
     /*第i行能否使用高斯消元法*/
     for(i=0;i<b.cols;i++)
     {
@@ -262,7 +262,7 @@ int rank_matrix(Matrix a)
                 
             }
             /*打印矩阵，便于检查*/
-           // print_matrix(b);
+            print_matrix(b);
 
         }
         else
@@ -277,8 +277,8 @@ int rank_matrix(Matrix a)
                     /*互换行与行*/
                     switch_rows(&b,j,i);
                     /*打印换行后的矩阵，方便调试*/
-                    //print_matrix(b);
-                    //printf("\n");
+                    print_matrix(b);
+                    printf("\n");
                     goto my_label;
                 }
             } 
@@ -317,7 +317,7 @@ void print_matrix(Matrix a)
         for (int j = 0; j < a.cols; j++)
         {
             // 按行打印，每个元素占8个字符的宽度，小数点后保留2位，左对齐
-            printf("%-8.2f", a.data[i][j]);
+            /printf("%-8.2f", a.data[i][j]);
         }
         printf("\n");
     }
