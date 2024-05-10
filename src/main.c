@@ -7,7 +7,7 @@ int main()
     {
         char op;
         scanf("%c", &op);
-        switch(op) 
+                switch(op) 
         {
             case '+':
             {
@@ -161,6 +161,7 @@ int main()
                         scanf("%lf", &a.data[i][j]);
                     }
                 }
+                
                 int rank = rank_matrix(a);
                 printf("%d\n", rank);
                 break;
