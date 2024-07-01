@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"projectIndex" : 0,
 					"source" : ".",
 					"targetIndexes" : 
@@ -15,7 +15,7 @@
 					]
 				}
 			],
-			"name" : "RelWithDebInfo",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -35,7 +35,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main-RelWithDebInfo-63a13b7ef55dc062de15.json",
+					"jsonFile" : "target-main-Debug-c268866dbf61ba7f1e07.json",
 					"name" : "main",
 					"projectIndex" : 0
 				}
